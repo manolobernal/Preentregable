@@ -1,0 +1,237 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    text-align: center;
+    background-image: url(../images/wall3.jpg);
+
+}
+
+footer {
+    margin-top: auto;
+    background-color: black;
+
+}
+
+.redes {
+    color: blue;
+    font-size: 40px;
+}
+
+.contact,
+.comunica {
+    color: orangered;
+    font-size: 31px;
+}
+
+.title {
+    color: darkblue;
+    font-size: 45px;
+}
+
+#inst {
+    color: brown;
+    font-size: 30px;
+}
+
+.enlaces {
+    color: crimson;
+}
+
+
+#offcanvasNavbarLabel {
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(86, 11, 156, 0.656);
+}
+
+.navbar-brand {
+    font-size: 45px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-link {
+    font-size: 27px;
+    font-family: 'Amita', serif;
+    color: rgb(4, 97, 164);
+}
+
+.cont {
+    font-size: 40px;
+    color: #2120208f;
+}
+
+.input-group {
+
+    font-size: 30px;
+}
+
+.donde {
+    background-color: rgb(185, 179, 179);
+}
+
+.parra {
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(239, 8, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: rgb(20, 228, 20);
+    font-size: 30px;
+}
+
+#suscribete {
+    font-size: 18px;
+}
+
+.calidad {
+    text-align: center;
+    background-color: rgba(73, 148, 229, 0.434);
+    color: blue;
+}
+
+.galeria_vintage {
+    margin: 15px;
+    padding: 15px;
+    border: 6px groove rgb(246, 51, 51);
+    width: 180px;
+    border-radius: 10px;
+}
+
+.galeria_vintage img {
+    width: 100%;
+}
+
+.gall {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-fluid {
+    background-color: rgba(15, 67, 126, 0.716);
+    padding: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#offcanvasNavbarLabel {
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(86, 11, 156, 0.656);
+
+}
+
+.us {
+
+    margin: 18px;
+}
+
+.btn {
+    color: greenyellow;
+    border: 4px solid greenyellow;
+    background-color: black;
+}
+
+.formulario {
+    font-family: 'Amita', serif;
+    font-size: 25px;
+}
+
+form {
+    background-color: rgba(21, 112, 176, 0.704);
+    width: 360px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 4px solid rgba(0, 0, 0, 0.233);
+}
+
+.logs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 36px;
+}
+
+
+@media (max-width: 768px) {
+
+    .almc {
+        display: none;
+    }
+
+    h2 {
+        color: rgb(16, 234, 5);
+    }
+
+    .parra {
+        color: rgb(21, 21, 238);
+    }
+
+    body {
+        background-image: url(../images/fondo88.jpg);
+
+    }
+
+    .calidad {
+
+        background-color: rgba(193, 73, 229, 0.434);
+        color: rgb(255, 0, 93);
+        border-radius: 15px;
+    }
+}
+
+@media (min-width: 769px) {
+    .calidad {
+        background-color: rgb(255, 0, 93);
+        color: white;
+        border-radius: 10px;
+    }
+
+    h2 {
+        color: rgb(251, 33, 149);
+    }
+
+
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    margin-top: 50px;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i {
+    font-size: 40px;
+
+}
+
+.navbar {
+    margin-right: 10px;
+}
