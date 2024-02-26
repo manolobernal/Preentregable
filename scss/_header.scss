@@ -1,0 +1,38 @@
+header {
+
+    nav {
+
+        div.container-fluid {
+            background-color: rgba(15, 67, 126, 0.716);
+            padding: 20px;
+            margin-right: 10px;
+            margin-left: 10px;
+            border-radius: 5px;
+
+            a.navbar-brand {
+                font-size: 45px;
+                color: $txt-color3;
+                font-family: 'Dancing Script', cursive;
+            }
+
+            #offcanvasNavbarLabel {
+            @include font(27px,'Roboto',rgba(86, 11, 156, 0.656));
+                
+
+            }
+
+            a.nav-link {
+                @include font(27px,'Amita',rgb(4, 97, 164));
+               
+            }
+
+            div.logs {
+                @include flex (space-around, center);
+                font-size: 30px;
+            }
+        }
+
+
+
+    }
+}

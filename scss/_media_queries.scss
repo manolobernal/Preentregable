@@ -1,0 +1,48 @@
+
+@media (max-width: 768px) {
+
+    h1.calidad {
+        text-align: center;
+        background-color: rgba(73, 148, 229, 0.434);
+        color: $txt-color2;
+    }
+
+
+    .almc {
+        display: none;
+    }
+
+    h1,
+    h2 {
+        color: rgb(16, 234, 5);
+    }
+
+    .parra {
+        color: rgb(21, 21, 238);
+    }
+
+    body {
+        background-image: url(../images/fondo88.jpg);
+    }
+
+    .calidad {
+        background-color: rgba(193, 73, 229, 0.434);
+        color: rgb(255, 0, 93);
+        border-radius: 15px;
+    }
+
+
+}
+
+@media (min-width: 769px) {
+    h1.calidad {
+        background-color: rgb(255, 0, 93);
+
+        border-radius: 10px;
+    }
+
+    h2 {
+        color: rgb(251, 33, 149);
+    }
+
+}

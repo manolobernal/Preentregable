@@ -1,0 +1,24 @@
+.btn--gall {
+    @extend .btn;
+    
+    
+}
+
+.btn {
+    border: 4px solid greenyellow;
+    color: greenyellow;
+    background-color: black;
+
+    &:visited {
+        color: blueviolet;
+    }
+
+    &:active {
+        color: red;
+    }
+
+    &:hover {
+        color: white;
+    }
+
+}

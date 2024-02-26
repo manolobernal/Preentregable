@@ -1,0 +1,11 @@
+@mixin flex($jcontent, $aling){
+    display: flex;
+    justify-content: $jcontent;
+    align-items: $aling;
+
+}
+@mixin font($fsize, $ffamily, $color){
+    font-size: $fsize;
+    font-family: $ffamily;
+    color: $color;
+}

@@ -1,18 +1,3 @@
-.btn, .btn--gall {
-  border: 4px solid greenyellow;
-  color: greenyellow;
-  background-color: black;
-}
-.btn:visited, .btn--gall:visited {
-  color: blueviolet;
-}
-.btn:active, .btn--gall:active {
-  color: red;
-}
-.btn:hover, .btn--gall:hover {
-  color: white;
-}
-
 body {
   min-height: 100vh;
   text-align: center;
@@ -62,7 +47,12 @@ main #inst {
 div.us {
   margin: 18px;
 }
-div.us .parra {
+div.us h1.calidad {
+  text-align: center;
+  background-color: rgba(73, 148, 229, 0.434);
+  color: darkblue;
+}
+div.us p.parra {
   font-size: 20px;
   text-align: justify;
   color: rgb(239, 8, 35);
@@ -96,23 +86,10 @@ div.formulario form {
   border-radius: 8px;
   border: 4px solid black;
 }
-div.formulario .btn, div.formulario .btn--gall {
-  border: 4px solid greenyellow;
+div.formulario .btn {
   color: greenyellow;
+  border: 4px solid greenyellow;
   background-color: black;
-}
-div.formulario .btn:visited, div.formulario .btn--gall:visited {
-  color: blueviolet;
-}
-div.formulario .btn:active, div.formulario .btn--gall:active {
-  color: red;
-}
-div.formulario .btn:hover, div.formulario .btn--gall:hover {
-  color: white;
-}
-
-.btn--gall {
-  border-radius: 10px;
 }
 
 footer {
@@ -138,12 +115,16 @@ footer .socials li a i {
   font-size: 27px;
 }
 
-@media (max-width: 768px) {
-  h1.calidad {
-    text-align: center;
-    background-color: rgba(73, 148, 229, 0.434);
-    color: darkblue;
+@media (min-width: 769px) {
+  .calidad {
+    background-color: rgb(255, 0, 93);
+    border-radius: 10px;
   }
+  h2 {
+    color: rgb(251, 33, 149);
+  }
+}
+@media (max-width: 768px) {
   .almc {
     display: none;
   }
@@ -161,15 +142,6 @@ footer .socials li a i {
     background-color: rgba(193, 73, 229, 0.434);
     color: rgb(255, 0, 93);
     border-radius: 15px;
-  }
-}
-@media (min-width: 769px) {
-  h1.calidad {
-    background-color: rgb(255, 0, 93);
-    border-radius: 10px;
-  }
-  h2 {
-    color: rgb(251, 33, 149);
   }
 }
 
