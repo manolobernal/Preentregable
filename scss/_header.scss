@@ -3,36 +3,33 @@ header {
     nav {
 
         div.container-fluid {
-            background-color: rgba(15, 67, 126, 0.716);
+            background: linear-gradient(to right, orange, #f245c4, #8f0ce7, cyan); 
             padding: 20px;
-            margin-right: 10px;
-            margin-left: 10px;
-            border-radius: 5px;
+            margin-top: -8px;
+            margin-bottom: -8px;
 
             a.navbar-brand {
-                font-size: 45px;
+                font-size: 33px;
                 color: $txt-color3;
-                font-family: 'Dancing Script', cursive;
+                font-family: "Special Elite", system-ui;
+                font-weight: 400;
+                font-style: normal;
             }
 
             #offcanvasNavbarLabel {
-            @include font(27px,'Roboto',rgba(86, 11, 156, 0.656));
-                
-
+            @include font(37px,'Special Elite',red);
+            
             }
 
             a.nav-link {
-                @include font(27px,'Amita',rgb(4, 97, 164));
+                @include font(29px,'Trade Winds',black);
                
             }
 
             div.logs {
                 @include flex (space-around, center);
-                font-size: 30px;
+                font-size: 40px;    
             }
         }
-
-
-
     }
 }

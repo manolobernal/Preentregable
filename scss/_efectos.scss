@@ -1,0 +1,91 @@
+div.fx1 {
+    background-color: blueviolet;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    padding: 20px;
+    
+
+p.efe2 {
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: wheat;
+}
+}
+.fx1:hover {
+    background: rgb(84, 212, 255);
+    transition: background-color 3s;
+}
+
+
+div.fx2 {
+    background-color: rgb(226, 43, 131);
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    padding: 20px;
+    
+
+p.efe {
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: wheat;
+}
+}
+.fx2:hover{
+    transform: rotate(45deg);
+}
+p.efe {
+    font-family: "Aladin", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+}
+
+
+
+div.fx3 {
+    background-color: rgb(49, 226, 43);
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    padding: 20px;
+    animation: 
+    pulse 3s ease infinite alternate, 
+    nudge 5s linear infinite alternate;}
+
+    @keyframes pulse {
+        0%, 100% {
+          background-color: red;
+        }
+        50% {
+          background-color: orange;
+        }
+      }
+      @keyframes nudge {
+        0%, 100% {
+          transform: translate(0, 0);
+        }
+        
+        50% {
+          transform: translate(100px, 0);
+        }
+        
+        80% {
+          transform: translate(-100px, 0);
+        }
+      }
+    
+p.efe3{
+    color: wheat;
+    font-family: "Lobster", sans-serif;
+    font-size: 20px;
+}

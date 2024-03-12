@@ -16,62 +16,108 @@
 body {
   min-height: 100vh;
   text-align: center;
-  background-image: url(../images/wall3.jpg);
+  background-image: url(../images/wallgtrs2.jpg);
   display: flex;
   flex-direction: column;
 }
 
+h1 {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+h2 {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3 {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: wheat;
+}
+
+h5 {
+  color: red;
+}
+
+p {
+  font-family: "Handlee", cursive;
+  font-weight: bold;
+  font-style: normal;
+  color: red;
+}
+
+.offcanvas-body {
+  background: linear-gradient(to left top, #051937, #662f64, #c74563, #fd873a, #ebe312);
+}
+
 header nav div.container-fluid {
-  background-color: rgba(15, 67, 126, 0.716);
+  background: linear-gradient(to right, orange, #f245c4, #8f0ce7, cyan);
   padding: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  border-radius: 5px;
+  margin-top: -8px;
+  margin-bottom: -8px;
 }
 header nav div.container-fluid a.navbar-brand {
-  font-size: 45px;
+  font-size: 33px;
   color: white;
-  font-family: "Dancing Script", cursive;
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 header nav div.container-fluid #offcanvasNavbarLabel {
-  font-size: 27px;
-  font-family: "Roboto";
-  color: rgba(86, 11, 156, 0.656);
+  font-size: 37px;
+  font-family: "Special Elite";
+  color: red;
 }
 header nav div.container-fluid a.nav-link {
-  font-size: 27px;
-  font-family: "Amita";
-  color: rgb(4, 97, 164);
+  font-size: 29px;
+  font-family: "Trade Winds";
+  color: black;
 }
 header nav div.container-fluid div.logs {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 main .title {
-  color: darkblue;
+  color: white;
   font-size: 45px;
 }
 main #inst {
-  color: brown;
-  font-size: 30px;
+  color: wheat;
+  /*font-size: 30px;*/
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
 div.us {
   margin: 18px;
 }
 div.us .parra {
-  font-size: 20px;
+  font-size: 25px;
   text-align: justify;
-  color: rgb(239, 8, 35);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(230, 158, 24);
+  font-family: "Itim", cursive;
+  font-weight: 600;
+  font-style: normal;
+  /*background: linear-gradient(#5a5bf3,#91e7d9);*/
+  padding: 20px;
+  border-radius: 10px;
 }
 
 div.gall {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 div.gall div.galeria_vintage {
   margin: 15px;
@@ -88,18 +134,26 @@ div.formulario {
   font-family: "Amita", serif;
   font-size: 25px;
 }
+div.formulario .for {
+  width: 70%;
+  border-radius: 10px;
+}
 div.formulario form {
-  background-color: rgba(21, 112, 176, 0.704);
-  width: 360px;
+  background: linear-gradient(to bottom, blueviolet, rgb(0, 145, 255), white);
+  width: 290px;
   margin: 0 auto;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 10px;
+  border-radius: 10px;
   border: 4px solid black;
 }
 div.formulario .btn, div.formulario .btn--gall {
   border: 4px solid greenyellow;
   color: greenyellow;
   background-color: black;
+  font-family: "Julee", cursive;
+  font-weight: 400;
+  font-style: normal;
+  border-radius: 10px;
 }
 div.formulario .btn:visited, div.formulario .btn--gall:visited {
   color: blueviolet;
@@ -138,11 +192,95 @@ footer .socials li a i {
   font-size: 27px;
 }
 
+div.fx1 {
+  background-color: blueviolet;
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 25%;
+  padding: 20px;
+}
+div.fx1 p.efe2 {
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: wheat;
+}
+
+.fx1:hover {
+  background: rgb(84, 212, 255);
+  transition: background-color 3s;
+}
+
+div.fx2 {
+  background-color: rgb(226, 43, 131);
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 25%;
+  padding: 20px;
+}
+div.fx2 p.efe {
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: wheat;
+}
+
+.fx2:hover {
+  transform: rotate(45deg);
+}
+
+p.efe {
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: black;
+}
+
+div.fx3 {
+  background-color: rgb(49, 226, 43);
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 25%;
+  padding: 20px;
+  animation: pulse 3s ease infinite alternate, nudge 5s linear infinite alternate;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: red;
+  }
+  50% {
+    background-color: orange;
+  }
+}
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(100px, 0);
+  }
+  80% {
+    transform: translate(-100px, 0);
+  }
+}
+p.efe3 {
+  color: wheat;
+  font-family: "Lobster", sans-serif;
+  font-size: 20px;
+}
+
 @media (max-width: 768px) {
   h1.calidad {
     text-align: center;
-    background-color: rgba(73, 148, 229, 0.434);
-    color: darkblue;
+    /*background-color: rgba(73, 148, 229, 0.434);*/
+    color: white;
   }
   .almc {
     display: none;
@@ -155,18 +293,22 @@ footer .socials li a i {
     color: rgb(21, 21, 238);
   }
   body {
-    background-image: url(../images/fondo88.jpg);
+    /*background-image: url(../images/fondo88.jpg);
+    background-image: linear-gradient(to right top, #170b2c, #2c1d49, #432f69, #5c428a, #7756ac, #776bc7, #7481e1, #6d97fb, #41afff, #1bc4ff, #31d7ff, #5fe8fb);*/
+    background-image: url(../images/wall6.webp);
   }
-  .calidad {
-    background-color: rgba(193, 73, 229, 0.434);
-    color: rgb(255, 0, 93);
-    border-radius: 15px;
-  }
+  /*.calidad {
+      background-color: rgba(193, 73, 229, 0.434);
+      color: rgb(255, 0, 93);
+      border-radius: 15px;
+  }*/
 }
 @media (min-width: 769px) {
   h1.calidad {
-    background-color: rgb(255, 0, 93);
-    border-radius: 10px;
+    color: white;
+    /*background-color: rgb(255, 0, 93);
+
+    border-radius: 10px;*/
   }
   h2 {
     color: rgb(251, 33, 149);
