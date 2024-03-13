@@ -2,7 +2,6 @@
 
     h1.calidad {
         text-align: center;
-        /*background-color: rgba(73, 148, 229, 0.434);*/
         color: white;
     }
 
@@ -21,31 +20,19 @@
     }
 
     body {
-        /*background-image: url(../images/fondo88.jpg);
-        background-image: linear-gradient(to right top, #170b2c, #2c1d49, #432f69, #5c428a, #7756ac, #776bc7, #7481e1, #6d97fb, #41afff, #1bc4ff, #31d7ff, #5fe8fb);*/
+
         background-image: url(../images/wall6.webp);
     }
-
-
-    /*.calidad {
-        background-color: rgba(193, 73, 229, 0.434);
-        color: rgb(255, 0, 93);
-        border-radius: 15px;
-    }*/
-
 
 }
 
 @media (min-width: 769px) {
     h1.calidad {
         color: white;
-        /*background-color: rgb(255, 0, 93);
-
-        border-radius: 10px;*/
+        
     }
 
     h2 {
         color: rgb(251, 33, 149);
     }
-
 }
